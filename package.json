@@ -1,0 +1,39 @@
+{
+  "name": "photon",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Progressive Monte Carlo path tracer in the browser — TypeScript + Canvas",
+  "author": "Sumit Kumar Ta <SK090347>",
+  "license": "(MIT OR Apache-2.0)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SK090347/photon.git"
+  },
+  "homepage": "https://github.com/SK090347/photon#readme",
+  "bugs": {
+    "url": "https://github.com/SK090347/photon/issues"
+  },
+  "keywords": [
+    "raytracing",
+    "path-tracing",
+    "computer-graphics",
+    "typescript",
+    "canvas",
+    "monte-carlo",
+    "portfolio"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "~5.7.3",
+    "vite": "^6.2.0",
+    "vitest": "^2.1.9"
+  }
+}
