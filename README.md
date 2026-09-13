@@ -1,5 +1,7 @@
 # photon
 
+**Live demo:** https://sk090347.github.io/photon/
+
 Browser path tracer in TypeScript + Canvas 2D. Progressive Monte Carlo accumulation on a Cornell-box scene — Lambertian / metal / emissive materials, cosine-weighted sampling, and a small BVH.
 
 [![CI](https://github.com/SK090347/photon/actions/workflows/ci.yml/badge.svg)](https://github.com/SK090347/photon/actions/workflows/ci.yml)
